@@ -8,11 +8,12 @@ html
 *, *:before, *:after
   box-sizing: inherit
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6
+p
   margin-top: 1rem
-  font-family: $font-family-title
+  margin-bottom: 2rem
+
+@for $i from 1 through 6
+  h#{$i}
+    margin-top: calc(2rem / #{$i * 0.5})
+    margin-bottom: calc(2rem / #{$i * 1})
+    font-family: $font-family-title

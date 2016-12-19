@@ -1,2 +1,16 @@
+$offset: calc(1rem + 4vw)
+
 .main-content
-  padding: 2rem calc(2rem + 4vw)
+  width: calc(50% + 20rem)
+  max-width: calc(100% - 2rem)
+  margin: 0 auto 4rem
+  overflow: auto
+
+  > p
+    margin-left: $offset
+
+  @for $i from 1 through 6
+    > h#{$i}
+      margin-right: $offset
+      border-bottom: 4px solid $color-primary
+      color: $color-primary
