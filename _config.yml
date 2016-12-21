@@ -17,6 +17,8 @@ title: Open Telecom Foudation
 email: fredguth@fredguth.com
 description: > # this means to ignore newlines until "baseurl:"
   Fostering and open source stack for carriers.
+description2: > # this means to ignore newlines until "baseurl:"
+  Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: fredguth
